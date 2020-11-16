@@ -1,0 +1,24 @@
+<html>
+<head>
+  <link href = "style.css" rel="stylesheet" type = "text/css"/>
+</head>
+  <body>
+
+  <form action="myfirstprogram.php" method="post">
+  <form id="form" action="customerBackend.php" method="POST">
+  Email: <input type="text" name="email"></input><br> Password: <input type="password" name="password"></input><br>  	
+  <h3>Please make a selection:</h3><br>
+  Chicken Wings: $7.00 <input name="chicken" type="number" min="0" max="99" value="0"><br>
+  Chili Fries: $5.00 <input name="fries" type="number" min="0" max="99" value="0"><br>
+  Cheeseburger: $6.00 <input name="cburger" type="number" min="0" max="99" value="0"><br>
+
+  <h4>Shipping:</h4>
+  <input type="radio" name="shipping" value="0" />Free 7 day shipping<br/>
+  <input type="radio" name="shipping" value="1" />$5.00 3 day shipping<br/>
+  <input type="radio" name="shipping" value="2" />$50.00 overnight<br/>
+  
+<br/>
+   <input type="submit" value="Submit">
+   <input type="button" value="Reset">  
+</body>
+</html>
